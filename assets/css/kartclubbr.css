@@ -281,30 +281,33 @@ main.container-md {
 
 .kc-calendar-table {
   margin-top: 0;
-  background: var(--kc-surface);
+  background: rgba(17, 24, 34, 0.9) !important;
   border: 1px solid var(--kc-stroke);
   box-shadow: 0 14px 40px rgba(0,0,0,0.24);
   backdrop-filter: blur(4px);
+  border-radius: 14px;
+  overflow: hidden;
 }
 
 .kc-calendar-table td,
 .kc-calendar-table th {
   font-size: 1.05rem;
-  color: var(--kc-ink);
-  background: transparent;
-  border-color: rgba(255,255,255,0.12);
+  color: #e8edf4 !important;
+  background-color: transparent !important;
+  border-color: rgba(255,255,255,0.12) !important;
 }
 
 .kc-calendar-table thead th {
-  background: rgba(255,255,255,0.08);
-}
-
-.kc-next-row {
-  background: rgba(255, 106, 0, 0.16);
+  background-color: rgba(255,255,255,0.08) !important;
+  font-family: 'Orbitron', 'Segoe UI', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .kc-next-row td {
-  color: #ffe6cf;
+  background-color: rgba(255, 106, 0, 0.18) !important;
+  color: #ffe6cf !important;
   font-weight: 700;
 }
 
@@ -348,9 +351,26 @@ main.container-md {
   margin: 0.6rem 0 0;
 }
 
-.footer {
-  background: rgba(4, 7, 12, 0.82);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+.footer,
+footer {
+  background: rgba(4, 7, 12, 0.88) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: #9ba9bc !important;
+}
+
+footer .copyright,
+footer .theme-by,
+footer p {
+  color: #9ba9bc !important;
+}
+
+footer a,
+footer .fa {
+  color: #c8d6e8 !important;
+}
+
+footer a:hover {
+  color: #ffb36f !important;
 }
 
 @keyframes kcRise {
