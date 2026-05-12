@@ -1,24 +1,14 @@
 ---
-layout: page
+layout: default
 title: Ranking
-subtitle: Top pilotos do campeonato
+subtitle: Championship standings
 ---
 
-<div class="kc-table-wrap">
-
-| Pos | Piloto         | Equipe        | Pontos | Tendencia |
-|-----|----------------|---------------|--------|-----------|
-| 1   | Lucas Mendes   | Speed Racing  | 156    | Lider     |
-| 2   | Rafael Costa   | Thunder Kart  | 142    | Up        |
-| 3   | Bruno Silva    | Apex Team     | 138    | Down      |
-| 4   | Carlos Eduardo | Velocity      | 125    | Up        |
-| 5   | Andre Santos   | Racing Pro    | 118    | Stable    |
-| 6   | Guilherme Mello| KCBR Factory  | 112    | Up        |
-| 7   | Ricardo Kassar | Black Flag    | 107    | Down      |
-| 8   | Roger Falcao   | Rotta 1       | 101    | Stable    |
-| 9   | Gabriel Santos | Team Orion    | 96     | Up        |
-| 10  | Giovany Gio    | Kartline      | 92     | Down      |
-
+<div class="kc-page-shell">
+<section class="kc-hero-panel kc-page-hero">
+	<p class="kc-eyebrow">Ranking</p>
+	<h2>Standings Coming Soon</h2>
+	<p>The first race is next weekend, so the ranking is intentionally empty for now.</p>
+	<a class="kc-btn kc-btn-ghost" href="{{ '/calendar' | relative_url }}">Open Calendar</a>
+</section>
 </div>
-
-<p class="kc-note">Atualizado para a etapa mais recente. Para ajustes de pontuacao, sincronize com a planilha oficial do campeonato.</p>

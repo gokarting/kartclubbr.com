@@ -1,62 +1,42 @@
 ---
-layout: page
+layout: default
 title: Calendar
-subtitle: Datas, pistas e horarios das etapas
+subtitle: Race dates and circuits
 ---
 
-<section class="kc-calendar-grid" aria-label="Calendario do campeonato">
-  <article class="kc-event-card kc-event-next">
-    <p class="kc-event-tag">Proxima</p>
-    <h3>Round 2 - Midlands Karting</h3>
-    <p>Irlanda</p>
-    <ul>
-      <li>Data: 15/02/2026</li>
-      <li>Horario: 14:00</li>
-      <li>Status: Confirmada</li>
-    </ul>
-  </article>
+{% assign now_ts = 'now' | date: '%s' | plus: 0 %}
+{% assign next_race = nil %}
+{% for race in site.data.race_calendar %}
+  {% assign race_ts = race.date | date: '%s' | plus: 0 %}
+  {% if race_ts >= now_ts %}
+    {% assign next_race = race %}
+    {% break %}
+  {% endif %}
+{% endfor %}
 
-  <article class="kc-event-card">
-    <p class="kc-event-tag">Round 1</p>
-    <h3>Kiltorcan Raceway</h3>
-    <p>Irlanda</p>
-    <ul>
-      <li>Data: 09/02/2025</li>
-      <li>Horario: 14:00</li>
-      <li>Status: Concluida</li>
-    </ul>
-  </article>
-
-  <article class="kc-event-card">
-    <p class="kc-event-tag">Round 3</p>
-    <h3>Watergrasshill Karting</h3>
-    <p>Irlanda</p>
-    <ul>
-      <li>Data: 22/03/2026</li>
-      <li>Horario: 13:30</li>
-      <li>Status: A confirmar</li>
-    </ul>
-  </article>
-
-  <article class="kc-event-card">
-    <p class="kc-event-tag">Round 4</p>
-    <h3>National Kart Centre</h3>
-    <p>Irlanda</p>
-    <ul>
-      <li>Data: 19/04/2026</li>
-      <li>Horario: 14:30</li>
-      <li>Status: A confirmar</li>
-    </ul>
-  </article>
-
-  <article class="kc-event-card">
-    <p class="kc-event-tag">Round 5</p>
-    <h3>Championship Finale</h3>
-    <p>Irlanda</p>
-    <ul>
-      <li>Data: 24/05/2026</li>
-      <li>Horario: 15:00</li>
-      <li>Status: A confirmar</li>
-    </ul>
-  </article>
+<div class="kc-page-shell">
+<section class="kc-hero-panel kc-page-hero">
+  <p class="kc-eyebrow">Race Calendar</p>
+  <h2>2026 Season Schedule</h2>
+  <p>Official round dates and circuits for the season.</p>
 </section>
+
+<section class="kc-table-wrap" aria-label="Race calendar table">
+  <table class="kc-calendar-table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Circuit</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for race in site.data.race_calendar %}
+      <tr{% if next_race and race.date == next_race.date %} class="kc-next-row"{% endif %}>
+        <td>{{ race.date_display }}</td>
+        <td>{{ race.circuit }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+</div>

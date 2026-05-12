@@ -21,6 +21,10 @@ body {
   color: var(--kc-ink);
 }
 
+body > .intro-header {
+  display: none;
+}
+
 .header-section .page-heading h1,
 .header-section .page-heading .page-subheading,
 .navbar-custom .navbar-brand,
@@ -46,6 +50,15 @@ body {
 
 main.container-md {
   position: relative;
+}
+
+.kc-page-shell {
+  margin-top: 6rem;
+  margin-bottom: 1.5rem;
+}
+
+.kc-page-hero {
+  margin-bottom: 1rem;
 }
 
 .kc-hero-panel,
@@ -141,7 +154,7 @@ main.container-md {
 
 .kc-stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.8rem;
   margin-bottom: 1.3rem;
 }
@@ -219,6 +232,11 @@ main.container-md {
   padding: 0;
 }
 
+.kc-empty-state {
+  margin: 0.9rem 0 0;
+  color: #d4deea;
+}
+
 .kc-mini-ranking li {
   display: flex;
   justify-content: space-between;
@@ -259,6 +277,24 @@ main.container-md {
 .kc-note {
   color: var(--kc-muted);
   font-size: 0.9rem;
+}
+
+.kc-calendar-table {
+  margin-top: 0;
+}
+
+.kc-calendar-table td,
+.kc-calendar-table th {
+  font-size: 1.05rem;
+}
+
+.kc-next-row {
+  background: rgba(255, 106, 0, 0.16);
+}
+
+.kc-next-row td {
+  color: #ffe6cf;
+  font-weight: 700;
 }
 
 .kc-calendar-grid {
@@ -319,7 +355,7 @@ main.container-md {
 
 @media (max-width: 992px) {
   .kc-stats-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
   }
 
   .kc-split-grid,
