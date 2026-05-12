@@ -281,32 +281,40 @@ main.container-md {
 
 .kc-calendar-table {
   margin-top: 0;
-  background: rgba(17, 24, 34, 0.9) !important;
-  border: 1px solid var(--kc-stroke);
-  box-shadow: 0 14px 40px rgba(0,0,0,0.24);
-  backdrop-filter: blur(4px);
+  width: 100%;
   border-radius: 14px;
   overflow: hidden;
+  border-collapse: collapse;
+}
+
+.kc-calendar-table tr {
+  background-color: #0d1520 !important;
 }
 
 .kc-calendar-table td,
 .kc-calendar-table th {
   font-size: 1.05rem;
   color: #e8edf4 !important;
-  background-color: transparent !important;
-  border-color: rgba(255,255,255,0.12) !important;
+  background-color: #0d1520 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding: 0.75rem 1rem;
+}
+
+.kc-calendar-table thead tr {
+  background-color: #080e18 !important;
 }
 
 .kc-calendar-table thead th {
-  background-color: rgba(255,255,255,0.08) !important;
+  background-color: #080e18 !important;
   font-family: 'Orbitron', 'Segoe UI', sans-serif;
   font-size: 0.8rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
+.kc-next-row,
 .kc-next-row td {
-  background-color: rgba(255, 106, 0, 0.18) !important;
+  background-color: rgba(255, 106, 0, 0.25) !important;
   color: #ffe6cf !important;
   font-weight: 700;
 }
