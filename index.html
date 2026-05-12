@@ -17,10 +17,11 @@ title: Home
 <section class="kc-hero-panel kc-page-hero">
   <p class="kc-eyebrow">KARTCLUBBR</p>
   <h2>Championship 2026</h2>
-  <p>
-    Follow the season with a modern and focused experience:
-    standings, race calendar, and the next event at a glance.
-  </p>
+  {% if next_race %}
+  <p>Next race: <strong>{{ next_race.circuit }}</strong> &mdash; {{ next_race.date_display }}</p>
+  {% else %}
+  <p>The 2026 season has concluded. See you on the grid next year!</p>
+  {% endif %}
   <div class="kc-cta-row">
     <a class="kc-btn kc-btn-primary" href="{{ '/ranking' | relative_url }}">View Ranking</a>
     <a class="kc-btn kc-btn-ghost" href="{{ '/calendar' | relative_url }}">View Calendar</a>

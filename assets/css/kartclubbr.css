@@ -281,11 +281,22 @@ main.container-md {
 
 .kc-calendar-table {
   margin-top: 0;
+  background: var(--kc-surface);
+  border: 1px solid var(--kc-stroke);
+  box-shadow: 0 14px 40px rgba(0,0,0,0.24);
+  backdrop-filter: blur(4px);
 }
 
 .kc-calendar-table td,
 .kc-calendar-table th {
   font-size: 1.05rem;
+  color: var(--kc-ink);
+  background: transparent;
+  border-color: rgba(255,255,255,0.12);
+}
+
+.kc-calendar-table thead th {
+  background: rgba(255,255,255,0.08);
 }
 
 .kc-next-row {
