@@ -269,6 +269,15 @@ main.container-md {
   border-color: rgba(255, 255, 255, 0.12);
 }
 
+.kc-table-wrap table tr,
+.kc-table-wrap table tr:nth-child(2n) {
+  background-color: #0d1520;
+}
+
+.kc-table-wrap td {
+  color: #e8edf4;
+}
+
 .kc-table-wrap th {
   background: rgba(255, 255, 255, 0.08);
   color: #f4f7ff;

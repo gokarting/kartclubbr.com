@@ -12,8 +12,14 @@
 # Name of website
 title: KARTCLUBBR
 
+# Main site URL used for canonical links and social metadata
+url: "https://kartclubbr.com"
+
+# Short site description for SEO and social previews
+description: "KARTCLUBBR karting championship: race calendar, rankings, and results."
+
 # Your name to show in the footer
-#author: ###
+author: KARTCLUBBR
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -124,7 +130,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "karting,championship,kartclubbr,ranking,calendar,results,ireland"
 
 ######################################
 # --- Colours / background image --- #

@@ -2,6 +2,9 @@
 layout: default
 title: Calendar
 subtitle: Race dates and circuits
+share-title: 2026 Race Calendar | KARTCLUBBR
+share-description: Official 2026 KARTCLUBBR race dates and circuits.
+comments: false
 ---
 
 {% assign now_ts = 'now' | date: '%s' | plus: 0 %}

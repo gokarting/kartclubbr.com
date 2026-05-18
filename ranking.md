@@ -2,6 +2,9 @@
 layout: default
 title: Ranking
 subtitle: Championship standings
+share-title: 2026 Ranking | KARTCLUBBR
+share-description: Current KARTCLUBBR championship standings and points system.
+comments: false
 ---
 
 <div class="kc-page-shell">
@@ -13,7 +16,7 @@ subtitle: Championship standings
 </section>
 
 <section class="kc-table-wrap" aria-label="Championship ranking table">
-	<table>
+	<table class="kc-calendar-table">
 		<thead>
 			<tr>
 				<th>Position</th>
