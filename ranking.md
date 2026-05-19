@@ -25,8 +25,8 @@ comments: false
 			</tr>
 		</thead>
 		<tbody>
-			<tr><td>1</td><td>NATAL</td><td>25</td></tr>
-			<tr><td>2</td><td>NOBLE 6</td><td>22</td></tr>
+			<tr><td>1</td><td>NATAL</td><td>26</td></tr>
+			<tr><td>2</td><td>NOBLE 6</td><td>23</td></tr>
 			<tr><td>3</td><td>VILASSA</td><td>20</td></tr>
 			<tr><td>4</td><td>FJBART</td><td>18</td></tr>
 			<tr><td>5</td><td>POMPEU</td><td>16</td></tr>
