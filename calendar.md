@@ -30,6 +30,7 @@ comments: false
       <tr>
         <th>Date</th>
         <th>Circuit</th>
+        <th>+ Info</th>
       </tr>
     </thead>
     <tbody>
@@ -37,6 +38,13 @@ comments: false
       <tr{% if next_race and race.date == next_race.date %} class="kc-next-row"{% endif %}>
         <td>{{ race.date_display }}</td>
         <td>{{ race.circuit }}</td>
+        <td>
+          {% if race.info_url %}
+          <a class="kc-btn kc-btn-ghost" href="{{ race.info_url | relative_url }}" aria-label="Open more info for {{ race.circuit }} on {{ race.date_display }}">+ info</a>
+          {% else %}
+          -
+          {% endif %}
+        </td>
       </tr>
       {% endfor %}
     </tbody>
