@@ -31,7 +31,7 @@ comments: false
 			<tr><td>3</td><td>DP0936</td><td>Diego Pompeu</td><td>36</td></tr>
 			<tr><td>4</td><td>IM3905</td><td>Ion Marcu</td><td>30</td></tr>
 			<tr><td>5</td><td>VB2655</td><td>Vinicius Borges Dias</td><td>28</td></tr>
-			<tr><td>6</td><td>GM1298</td><td>Guilherme Melo</td><td>27</td></tr>
+			<tr><td>6</td><td>GM1298</td><td>Guilherme Natal</td><td>27</td></tr>
 			<tr><td>7</td><td>LC6549</td><td>Lucas Cavalcante</td><td>27</td></tr>
 			<tr><td>8</td><td>FB4356</td><td>Felipe Bart</td><td>23</td></tr>
 			<tr><td>9</td><td>RD6414</td><td>Ronan Sila Cury Dias</td><td>19</td></tr>
