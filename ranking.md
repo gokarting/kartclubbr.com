@@ -26,7 +26,7 @@ comments: false
 			</tr>
 		</thead>
 		<tbody>
-			<tr><td>1</td><td>BV1836</td><td>Bruno Vilaça</td><td>48</td></tr>
+			<tr><td>1</td><td>BV1836</td><td>Bruno Vilassa</td><td>48</td></tr>
 			<tr><td>2</td><td>LB1614</td><td>Lorcan Bellew</td><td>45</td></tr>
 			<tr><td>3</td><td>DP0936</td><td>Diego Pompeu</td><td>36</td></tr>
 			<tr><td>4</td><td>IM3905</td><td>Ion Marcu</td><td>30</td></tr>
