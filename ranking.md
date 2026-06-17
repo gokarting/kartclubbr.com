@@ -11,7 +11,7 @@ comments: false
 <section class="kc-hero-panel kc-page-hero">
 	<p class="kc-eyebrow">Ranking</p>
 	<h2>2026 Championship Standings</h2>
-	<p>Updated on 18/05/2026 after Round 1.</p>
+	<p>Updated on 17/06/2026 after Round 2.</p>
 	<a class="kc-btn kc-btn-ghost" href="{{ '/calendar' | relative_url }}">Open Calendar</a>
 </section>
 
@@ -20,31 +20,32 @@ comments: false
 		<thead>
 			<tr>
 				<th>Position</th>
-				<th>Driver</th>
-				<th>Points</th>
+				<th>ID</th>
+				<th>Driver Name</th>
+				<th>Total Points</th>
 			</tr>
 		</thead>
 		<tbody>
-			<tr><td>1</td><td>NATAL</td><td>26</td></tr>
-			<tr><td>2</td><td>NOBLE 6</td><td>23</td></tr>
-			<tr><td>3</td><td>VILASSA</td><td>21</td></tr>
-			<tr><td>4</td><td>FJBART</td><td>18</td></tr>
-			<tr><td>5</td><td>POMPEU</td><td>16</td></tr>
-			<tr><td>6</td><td>VINI 23</td><td>14</td></tr>
-			<tr><td>7</td><td>ION MARCU</td><td>12</td></tr>
-			<tr><td>8</td><td>LUCAS_SDC</td><td>10</td></tr>
-			<tr><td>9</td><td>CAMACHO</td><td>8</td></tr>
-			<tr><td>10</td><td>R. CURY</td><td>7</td></tr>
-			<tr><td>11</td><td>WALLACE</td><td>6</td></tr>
-			<tr><td>12</td><td>TOM COSTA</td><td>5</td></tr>
-			<tr><td>13</td><td>SKREP</td><td>4</td></tr>
-			<tr><td>14</td><td>RAFART</td><td>3</td></tr>
-			<tr><td>15</td><td>DO VALE</td><td>2</td></tr>
-			<tr><td>16</td><td>DOUGLAS R</td><td>1</td></tr>
-			<tr><td>17</td><td>LIPE07</td><td>1</td></tr>
-			<tr><td>18</td><td>BAG OF HAMMERS</td><td>1</td></tr>
-			<tr><td>19</td><td>RO86</td><td>1</td></tr>
-			<tr><td>20</td><td>DOTTA</td><td>1</td></tr>
+			<tr><td>1</td><td>BV1836</td><td>Bruno Vilaça</td><td>48</td></tr>
+			<tr><td>2</td><td>LB1614</td><td>Lorcan Bellew</td><td>45</td></tr>
+			<tr><td>3</td><td>DP0936</td><td>Diego Pompeu</td><td>36</td></tr>
+			<tr><td>4</td><td>IM3905</td><td>Ion Marcu</td><td>30</td></tr>
+			<tr><td>5</td><td>VB2655</td><td>Vinicius Borges Dias</td><td>28</td></tr>
+			<tr><td>6</td><td>GM1298</td><td>Guilherme Melo</td><td>27</td></tr>
+			<tr><td>7</td><td>LC6549</td><td>Lucas Cavalcante</td><td>27</td></tr>
+			<tr><td>8</td><td>FB4356</td><td>Felipe Bart</td><td>23</td></tr>
+			<tr><td>9</td><td>RD6414</td><td>Ronan Sila Cury Dias</td><td>19</td></tr>
+			<tr><td>10</td><td>RF7191</td><td>Rodrigo Ferreira Camacho</td><td>18</td></tr>
+			<tr><td>11</td><td>EC5061</td><td>Everton Costa</td><td>11</td></tr>
+			<tr><td>12</td><td>RK2782</td><td>Ronan Kierans</td><td>8</td></tr>
+			<tr><td>13</td><td>DR5668</td><td>Douglas Robidoux</td><td>8</td></tr>
+			<tr><td>14</td><td>WT4284</td><td>Wallace Antonio Teixeira</td><td>7</td></tr>
+			<tr><td>15</td><td>EA7698</td><td>Eduardo Arenhart</td><td>7</td></tr>
+			<tr><td>16</td><td>FG8052</td><td>Felipe de Oliveira Goncalves</td><td>5</td></tr>
+			<tr><td>17</td><td>RT8448</td><td>Rafael Rosolem Thibes</td><td>5</td></tr>
+			<tr><td>18</td><td>WS4487</td><td>Weber Soares</td><td>2</td></tr>
+			<tr><td>19</td><td>KS6547</td><td>Ken O'Sullivan</td><td>2</td></tr>
+			<tr><td>20</td><td>PD6385</td><td>Priscilla Liberali Dotta</td><td>2</td></tr>
 		</tbody>
 	</table>
 </section>
